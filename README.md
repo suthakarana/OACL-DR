@@ -17,3 +17,42 @@ Key Contributions
 * EMA (Exponential Moving Average) for stable training
 * Class Balanced MoCo design
 * Model ensembling using EMA weights across epochs
+
+ 
+Ordinal-Contrastive-DR/
+│
+├── README.md
+├── requirements.txt
+├── main.py
+│
+├── models/
+│   ├── CNN_train.py
+│   ├── DataLoader.py
+│   ├── DenseNet.py
+│   ├── ResNet.py
+│   ├── util.py
+│   ├── MoCo.py
+│   ├── MoCoFixed.py
+│   ├── loss.py
+│   ├── CDWLoss.py
+│   ├── EvaluateEnsemble.py
+│   └── TSNEPlot.py
+
+
+Evaluation Metrics
+* Accuracy
+* F1 Score (Macro)
+* Quadratic Weighted Kappa (QWK)
+* Balanced Accuracy
+
+Dataset
+This work can be trained and evaluated on standard DR datasets such as:
+EyePACS
+APTOS
+LIMUC
+
+Expected Structure
+dataset/
+├── train/
+├── val/
+└── test/
