@@ -90,18 +90,7 @@ def printResults(paraArr, meanArr, stdArr):
             print(f"{mean_val[i]:.4f} ± {std_val[i]:.4f}", end=' | ')
         print()
     print(150 * '-')
-
-# opt.seed = 100
-# EvaluateEnsemble(opt)
-# exit()
-
-# opt.seed = 1000
-# path = '/home/suthakaran/Codes/DR_softMAX/TrainedModels/order_only_models/model0.pt'
-# tsne_plotter = TSNEPlot(opt, path, split='test')
-# tsne_plotter.plot(perplexity=30, save_path='tsne_model0_test.png')
-# exit()
-
-
+ 
 re = []
 para = []
 mean_re = []
